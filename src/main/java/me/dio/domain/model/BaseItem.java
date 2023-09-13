@@ -13,7 +13,7 @@ public abstract class BaseItem {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String icon;
     private String description;
 }
